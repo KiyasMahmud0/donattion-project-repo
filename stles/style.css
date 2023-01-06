@@ -1,0 +1,330 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+
+    
+   
+}
+/* Home start */
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    text-align: center;
+    background-color: #00000080;
+    background-blend-mode: overlay;
+}   
+    
+   
+
+
+
+
+.title-home{
+    margin: 10px;
+    font-size: 75px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+} 
+
+   
+
+
+.sub-title-home{
+    font-weight: 700;
+    font-size: 19px;
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.75);
+
+}
+
+.btn-primary{
+    height: 54px;
+    border-radius: 5px;
+    background-color:#ff6d86;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    border: 0;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-top: 10px;
+}
+
+/* home end */
+
+/* section start */
+
+/* Donate start */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.donate-money{
+    text-align: center;
+}
+
+
+
+.donate-text{
+    padding-top: 70px;
+    display: block;
+    
+    
+}
+
+.donate-title{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.donate-sub-title{
+    font-family: cursive;
+    width:500px;
+    text-align: center;
+    /* Eikhane amar margin use korte hoice. use korle eita majhe jay nah */
+    margin-left: 335px;
+    color: #373636ad;
+}
+
+.donate-button{
+    margin-top: 20px;
+    text-align: center;
+    
+    
+
+}
+
+.btn-money{
+    background-color: rgba(128, 128, 128, 0.335);
+    border: none;
+    color: rgb(64, 62, 62);
+    padding: 35px 45px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 7px;
+    
+}
+
+
+.btn-money1{
+    background-color: #ff7a9043;
+    color: #ff6d85;
+    padding: 35px 45px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 7px;
+    border-color: #ff6d85;
+    background-blend-mode: overlay;
+}
+
+.aro-taka{
+    padding-top: 20px;
+    color: rgba(0, 0, 0, 0.37);
+}
+
+hr{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: rgba(0, 0, 0, 0.528);
+}
+
+.oth-money{
+    margin-top: 30px;
+    color:rgba(0, 0, 0, 0.536)
+}
+
+/* Donet-end */
+
+
+/* donate section end */
+.plan-text{
+    padding-top: 150px;
+    
+}
+/* donate plane start */
+
+.donate-title{
+    text-align: center;
+}
+.donate-plan-container{
+    display: flex;
+    margin-top: 80px;
+    gap: 25px;
+}
+
+.donate-plan1{
+    background-color:gainsboro;
+    padding: 30px;
+    border-radius: 5px;
+   
+}
+
+.donate-plan2{
+    background-color: #fdd2d9fc;
+    padding: 30px;
+    border-radius: 5px;
+   
+}
+.donate-plan3{
+    background-color: #ffeb87;
+    padding: 30px;
+    border-radius: 5px;
+   
+}
+.donate-title-plan{
+    font-size:25px ;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.donate-dis{
+    margin-top: 5px;
+    color: #373636ad;
+}
+
+
+.education-icon{
+    width: 55px;
+}
+
+/* need-section styles start*/
+.need-section{
+    display: flex;
+    margin-top: 130px;
+    align-items: center;
+    gap: 50px;
+}
+
+.need-img{
+    width:600px;
+    border-radius: 5px;
+}
+
+
+.need-sub-title{
+    margin-top: 20px;
+    color: #373636ad;
+    margin-bottom: 20px;
+}
+
+.need-title{
+    
+    font-size: 50px;
+    margin-bottom: 20px;
+    
+}
+/* need-section styles end*/
+
+/* update-email section styel start */
+.update{
+    padding-top: 150px;
+    display: block;
+    text-align: center;
+    align-items: center;
+    
+    
+}
+
+
+.update-mail{
+    height: 37vh;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+.update-mail input{
+    margin-bottom:24px;
+    border: 0;
+    padding: 18px 50px;
+    
+    
+    
+    
+    
+}
+
+.email-section{
+    background-color: #ffeb87;
+    height: 20vh;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.email-section input[type=email]{
+    padding: 10px;
+    margin-left: 5px;
+    border: none;
+    background-color:#fff6f6;
+    border-radius: 2px;
+    border-color:#ff6d86;
+    
+}
+
+.email-section input[type=submit]{
+    padding: 10px 15px;
+    margin-left: -5px;
+    border: none;
+    background-color:#ff6d86;
+    color: #FFFFFF;
+    border-radius: 3px;
+    
+    
+}
+
+
+
+
+
+
+
+
+/* update-email section styel end */
+
+/* footer start*/
+footer{
+    background-color: #010117;
+    height: 15vh;
+    margin-top: 90px;
+    text-align: center;
+   
+}
+
+.footer-title{
+    color: #f84d6a;
+    padding-top: 50px;
+    font-family: cursive;
+    
+}
+
+.footer-sub-title{
+    color: white;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+
+
+
+
+/* footer styel end */
